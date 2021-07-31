@@ -20,7 +20,7 @@ div.classList.remove("hidden")
 
 function showTooltip(e) {
     const title =e.target.getAttribute("title");
-        e.target.removeAttribute("title");
+        e.target.removeAttribute("title")
     createTooltip(title, {
     w: e.target.offsetWidth,
     x: e.target.offsetLeft,
