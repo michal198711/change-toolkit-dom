@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+h1{
+    padding-bottom: 20px;
+    margin-bottom:40px;
+    border-bottom: 1px #D8d8d8 solid;
+
+    line-height: 1;
+    font-weight: normal;
+    color: #666666
+}
+
+p {
+    margin-bottom: 30px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: #00ACDE;
+}
+.tooltip {
+    padding: 10px 15px 12px 15px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, .8);
+    opacity:1;
+    -webkit
+}
